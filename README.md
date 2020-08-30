@@ -6,4 +6,4 @@
   * 책 '이것이 코딩 테스트다' 문제풀이
 
 - BOJ
-  * 백준 online judge (https://www.acmicpc.net/) 
+  * 백준 online judge (https://www.acmicpc.net/) 풀이
