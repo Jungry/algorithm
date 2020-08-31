@@ -8,6 +8,8 @@ def dfs(graph , v , visited): #v 현재 노드 visited 방문한 노드
     for i in graph[v]:
         if not visited[i]:
             dfs(graph,i,visited)
+            
+#하나씩 타고 들어가서 방문 안한애 있으면 재귀
 graph = [
     [],
     [2,3,8],
