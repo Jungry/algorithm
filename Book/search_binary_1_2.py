@@ -13,8 +13,9 @@ def binary_search(array,target,start,end):
 
 n = int(input())
 array = list(map(int,input().split()))
+array.sort()
 m = int(input())
-array_target = list(map(int.input().split()))
+array_target = list(map(int,input().split()))
 
 for i in array_target:
     result = binary_search(array,i,0,n-1)
