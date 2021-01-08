@@ -1,4 +1,4 @@
-#무자의 먹방 라이브
+#무지의 먹방 라이브
 
 def solution(food_times,k):
     count = 0
@@ -35,7 +35,7 @@ def solution(food_times,k):
 
             if now_food == len(food_times):
                 return -1
-
+#
 
 food_times = [1,1,1,1]
 k = 2

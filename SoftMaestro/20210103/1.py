@@ -9,6 +9,9 @@ for i in range(len(data)):
             count += 1
 print(count)
 
+
+#책의 풀이
+
 n,m = map(int,input().split())
 data = list(map(int,input().split()))
 

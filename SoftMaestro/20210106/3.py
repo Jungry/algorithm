@@ -8,7 +8,7 @@ def dfs(graph,v,visited):
             dfs(graph,i,visited)
 
 graph = [
-    [],
+    [],  #0은 없으니까 비워두자
     [2,3,8],  #1번 노드
     [1,7],
     [1,4,5],

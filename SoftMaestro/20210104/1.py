@@ -1,3 +1,5 @@
+#왕실의 나이트
+
 curr = input()
 row = int(curr[1]) #앞에꺼 
 column = int(ord(curr[0])) - int(ord('a')) + 1 #뒤에꺼
