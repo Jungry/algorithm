@@ -5,7 +5,7 @@ array = []
 for _ in range(k):
     array.append(int(input()))
 
-start = 0
+start = 1
 end = max(array)
 
 result = 0
@@ -21,3 +21,4 @@ while(start<=end):
         result = mid
         start = mid + 1
 print(result)
+
